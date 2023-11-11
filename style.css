@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.ramDarbarPhoto {
+    width: 45%;
+    max-width: 600px; /* Adjust the maximum width as needed */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 200px;
+    background-size:cover;
+}
+
+#diwaliWishes {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #ff9800;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e08f00;
+}
+
+#fireworks {
+    margin-top: 20px;
+}
+#happy{
+    color: rgb(255, 0, 64);
+}
+#do{
+    color: rgb(25, 157, 206);
+}
+#hi{
+    color: rgba(20, 209, 83, 0.979);
+}
